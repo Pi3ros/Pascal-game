@@ -65,7 +65,7 @@ begin
     Stribro.Caption:=IntToStr(StrToInt(Stribro.Caption)-100);
   end;
 
-  //Repair n.2
+  //Fix n.2
 
   If StrToInt(Stribro.Caption)<0 then begin
     Zlato.Caption:=IntToStr(StrToInt(Zlato.Caption)-1);
